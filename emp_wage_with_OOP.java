@@ -1,7 +1,6 @@
 import java.util.Random;
 
-public class employee_wage_OOP{
-
+public class employee_wage_with_OOP{
     public static void main(String[] args) {
         // Creating an Instance of class Employee_check
         Employee_check first_emp = new Employee_check();
@@ -13,6 +12,14 @@ public class employee_wage_OOP{
 
     //Defining the class Employee_check
     public static class Employee_check {
+
+
+        Employee_check(/*int i, int j*/){
+            //Initializing the wage and working hours
+            int working_hours = 8;
+            int wage_per_hr = 20;
+
+        }
 
         Random check = new Random();
         //Defining attendacne method
@@ -31,5 +38,9 @@ public class employee_wage_OOP{
 
     }
 
+<<<<<<< HEAD
 
+=======
+    
+>>>>>>> 2nd_UC_daily_wage
 }
